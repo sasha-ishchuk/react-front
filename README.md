@@ -4,7 +4,7 @@
 
 ### Important information:
 1. Demo video is in "demo" directory
-2. Backend app in GoLang: 
+2. Backend app in GoLang: (repo)[https://github.com/sasha-ishchuk/golang-crud-app]
 
 ### Spełnione wymagania:
 1. Komponenty Produkty i Płatności: https://github.com/sasha-ishchuk/react-front/commit/d8df0a86929adf10d55eaadee43bf64883b24547
@@ -22,7 +22,7 @@
 
 #### Demo wideo w folderze demo\task_6\tests-demo.mp4
 #### Folder: react-front\cypress\e2e
-#### Wszystkie wymagania dodane w 1 commicie: 
+#### Wszystkie wymagania dodane w 1 commicie: https://github.com/sasha-ishchuk/react-front/commit/673482d766ec391fbdf1b0a1379bdd33b0cff391
 
 ### Spełnione wymagania:
 1. 20 przypadków testowych w CypressJS (dodano 51 przypadków testowych)

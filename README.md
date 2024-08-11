@@ -4,7 +4,7 @@
 
 ### Important information:
 1. Demo video is in "demo" directory
-2. Backend app in GoLang: (repo)[https://github.com/sasha-ishchuk/golang-crud-app]
+2. Backend app in GoLang: https://github.com/sasha-ishchuk/golang-crud-app
 
 ### Spełnione wymagania:
 1. Komponenty Produkty i Płatności: https://github.com/sasha-ishchuk/react-front/commit/d8df0a86929adf10d55eaadee43bf64883b24547

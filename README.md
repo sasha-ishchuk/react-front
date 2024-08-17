@@ -29,3 +29,21 @@
 2. Testy zawierają 50 asercji (w sumie jest 59 asercji)
 3. Testy są stworzone do wcześniejszego projektu z zad. 5
 4. Testy pokrywają wszystkie endpointy i zawierają scenariusz negatywny
+
+## ZADANIE 7 - SONAR
+
+### Commity
+1. Wymaganie 1 (pre-commit git hook) w aplikacji serwerowej w Go
+   - link to server app repo: [click here](https://github.com/sasha-ishchuk/golang-crud-app)
+   - [commit](https://github.com/sasha-ishchuk/golang-crud-app/commit/5ec617bc76e496406a7ccca23858cac4cb325bfc)
+3. Wymaganie 2-4 (Sonar results below) dot. aplikacji serwerowej
+   - link to server app repo: [click here](https://github.com/sasha-ishchuk/golang-crud-app)
+   - sonar fixes [commit](https://github.com/sasha-ishchuk/golang-crud-app/commit/f787fec36a9b6cdbb8a27abc1e1848ff62068bf4)
+5. Wymaganie 5 (Sonar results below)
+   - sonar fixes [commit](https://github.com/sasha-ishchuk/react-front/commit/f82fd8a88827168fb68db79e84b0613d99210d16)
+
+### Sonar 
+
+- **Server app:** [server](https://sonarcloud.io/project/overview?id=sasha-ishchuk_golang-crud-app)
+
+- **Client app:** [client](https://sonarcloud.io/project/overview?id=sasha-ishchuk_react-front)

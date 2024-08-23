@@ -14,7 +14,9 @@ const Product = () => {
             setError(null);
 
             try {
-                const response = await axios.get(`http://localhost:8080/products/${productId}`);
+                const response = await axios.get(`http://localhost:8080/products/${productId}`, {
+                    withCredentials: true
+                });
                 setProduct(response.data);
             } catch (error) {
                 setError('Error fetching product data');

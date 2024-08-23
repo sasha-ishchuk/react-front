@@ -14,7 +14,9 @@ const Cart = () => {
             setError(null);
 
             try {
-                const response = await axios.get(`http://localhost:8080/carts/${cartId}`);
+                const response = await axios.get(`http://localhost:8080/carts/${cartId}`, {
+                    withCredentials: true
+                });
                 setCart(response.data);
             } catch (error) {
                 setError('Error fetching cart data');

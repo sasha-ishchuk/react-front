@@ -13,7 +13,9 @@ const Categories = () => {
             setError(null);
 
             try {
-                const response = await axios.get('http://localhost:8080/categories');
+                const response = await axios.get('http://localhost:8080/categories', {
+                    withCredentials: true
+                });
                 setProducts(response.data);
             } catch (error) {
                 setError('Error fetching products data');

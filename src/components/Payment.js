@@ -18,6 +18,7 @@ const Payment = () => {
                 ExpireDate: paymentDetails.expiryDate,
                 SecurityCode: paymentDetails.securityCode
             }, {
+                withCredentials: true,
                 headers: {
                     'Content-Type': 'application/json'
                 }

@@ -6,7 +6,7 @@ WORKDIR /react-front
 
 COPY package*.json ./
 
-RUN npm install --legacy-peer-deps
+RUN npm install --legacy-peer-deps --ignore-scripts
 
 COPY . .
 

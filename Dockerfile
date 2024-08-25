@@ -1,11 +1,12 @@
-FROM node:14 AS build
+FROM node:18 AS build
+
 LABEL authors="alexa"
 
 WORKDIR /react-front
 
 COPY package*.json ./
 
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 COPY . .
 
